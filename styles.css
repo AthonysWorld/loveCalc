@@ -1,28 +1,24 @@
 
 body{
-  color: red;
-  background-color: rgba(12, 12, 241, 0.705);
- margin: 0%;
- padding: 0%;
+  color: whitesmoke;
+  background-image: url(images/photo_2023-05-14_17-47-53.jpg);
+background-repeat: no-repeat;
+  margin: 0%;
+ padding: 10px;
+ padding-top: 10px;
+ text-align: center;
+ align-items: center;
 }
 h1{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
-#container{
-  color: white;
-  background-color: pink;
-  background-image: url(images/photo_2023-05-14_17-47-53.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+.img1{
+  border-radius: 100%;
 }
-#contain{
-  background-color: rgba(12, 12, 241, 0.212);
-  padding: 10px;
-  text-align: center;
-  max-width: auto;
-  height: 100%;
 
+#container{
+  height: 100%;
+  width: 100%;
 }
 #btn{
   margin: 30px;
@@ -35,8 +31,54 @@ h1{
   font-size: 20px;
   font-weight: bold;
   background-color:pink ;
+  box-shadow: 1px 1px 1px 1px;
 }
 #btn:hover{
   background-color:rgba(12, 12, 241, 0.705) ;
   color: white;
 }
+
+@media (min-width:900px) {
+  body{
+    color: whitesmoke;
+  background-image: url(images/photo_2023-05-14_17-47-53.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+  margin: 0%;
+ padding: 10px;
+ padding-top: 100px;
+ text-align: center;
+  }
+  .contain{
+    height: 250px;
+   width: 250px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    margin: 0 auto 20px auto;
+  }
+  #btn{
+    height: 50px;
+    width: 300px;
+   box-shadow: 1px 1px 1px 1px;
+  }
+}
+
+@media (max-width:900px) {
+  body{
+    color: whitesmoke;
+  background-image: url(images/photo_2023-05-14_17-47-53.jpg);
+background-repeat: no-repeat;
+  margin: 0%;
+ padding: 10px;
+ padding-top: 50px;
+ text-align: center;
+  }
+  .contain{
+    height: 150px;
+   width: 150px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+   margin: 0 auto 20px auto;
+  }
+}
+
