@@ -2,13 +2,12 @@
 body{
   color: red;
   background-color: rgba(12, 12, 241, 0.705);
-  margin: 150px 20px auto 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  padding: auto 20px auto 20px;
   background-image: url(images/photo_2023-05-14_17-47-53.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+ 
 }
 #container{
   color: white;
@@ -22,7 +21,7 @@ body{
   box-shadow: 0px 0px 2px 2px rgba(255, 192, 203, 0.288);
 }
 #contain{
-  height: 400px;
+  height: auto;
   width: auto;
   background-color: rgba(12, 12, 241, 0.212);
   padding: 10px;
@@ -52,10 +51,7 @@ body{
 /* media Q'S */
 
 @media (max-width:600px) {
-  #container{
-    height: 800px;
-    
-  }
+  
   
 }
 /* QS end */
