@@ -5,7 +5,7 @@ body{
   padding: auto 20px auto 20px;
   background-image: url(images/photo_2023-05-14_17-47-53.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
  
 }
@@ -51,7 +51,9 @@ body{
 /* media Q'S */
 
 @media (max-width:600px) {
-  
-  
+  #container{
+  margin-top: 10%;
+
+  }
 }
 /* QS end */
