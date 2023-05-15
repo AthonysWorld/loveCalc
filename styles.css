@@ -6,7 +6,13 @@ body{
   background-size: contain;
   background-color: pink;
 }
-h1{
+#container{
+  height: 646px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+/* h1{
   font-size: 2rem;
 }
 .img1{
@@ -83,4 +89,4 @@ height: 100%;
    margin: 0 auto 80px auto;
   }
 }
-
+ */
