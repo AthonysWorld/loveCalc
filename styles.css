@@ -33,9 +33,9 @@ h1{
 @media (min-width:900px) {
   body{
     color: whitesmoke;
-  background-image: url(images/photo_2023-05-14_17-47-53.jpg);
+    background-image: url(images/valentines-bouquet-with-a-card-animate.svg);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
     height: auto;
     width: auto;
     margin: 0%;
@@ -60,7 +60,7 @@ background-size: cover;
 @media (max-width:900px) {
   body{
     color: whitesmoke;
-    background-image: url(images/photo_2023-05-14_17-47-53.jpg);
+    background-image: url(images/valentines-bouquet-with-a-card-animate.svg);
   background-repeat: no-repeat;
     margin: 0%;
  padding: 10px;
