@@ -4,7 +4,6 @@ background-repeat: no-repeat;
 color: red;
 font-size: 2em;
 text-align: center;
-padding-top: 100px;
 }
 h1{
   font-size: 2rem;
@@ -54,13 +53,15 @@ h1{
   .container{
 height: 100%;
   }
+  body{
+    padding-top: 100px;
+  }
   .contain{
-    height: 250px;
-   width: 250px;
+    height: 400px;
+   width: 400px;
     border-radius: 100%;
     background-color: whitesmoke;
    margin: 0 auto 20px auto;
   }
-
 }
 
