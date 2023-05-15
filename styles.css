@@ -5,16 +5,8 @@ color: red;
 font-size: 2em;
 text-align: center;
 }
-h1{
-  font-size: 2rem;
-}
 .img1{
   border-radius: 100%;
-}
-
-#container{
-  height: 100%;
-  width: 100%;
 }
 #btn{
   margin: 30px;
