@@ -10,14 +10,14 @@ h1{
   font-family: 'Mulish', sans-serif;
   font-family: 'Satisfy', cursive;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 h2,h4{
   font-family: 'Dancing Script', cursive;
   font-family: 'Mulish', sans-serif;
   font-family: 'Satisfy', cursive;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .container-fluid{
   padding: 5px;
