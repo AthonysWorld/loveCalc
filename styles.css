@@ -3,6 +3,7 @@ background-image: linear-gradient(pink, whitesmoke);
 background-repeat: no-repeat;
 color: red;
 font-size: 2em;
+text-align: center;
 }
 h1{
   font-size: 2rem;
