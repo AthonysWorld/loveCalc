@@ -1,13 +1,8 @@
 body{
-  margin: 0%;
-  background-attachment: fixed;
-  background-image: url(images/valentines-bouquet-with-a-card-animate.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: pink;
+background-image: linear-gradient(pink, whitesmoke);
+color: red;
+font-size: 1.5rem;
 }
-
-
 h1{
   font-size: 2rem;
 }
@@ -18,7 +13,6 @@ h1{
 #container{
   height: 100%;
   width: 100%;
-  color: red;
 }
 #btn{
   margin: 30px;
@@ -39,17 +33,12 @@ h1{
 }
 
 @media (min-width:900px) {
-  body{
-    color: whitesmoke;
-    background-image: url(images/valentines-bouquet-with-a-card-animate.svg);
-background-repeat: no-repeat;
-background-size: contain;
-    height: auto;
-    width: auto;
-    margin: 0%;
-    padding: 10px;
-    padding-top: 100px;
-    text-align: center;
+  .contain{
+    height: 250px;
+   width: 250px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    margin: 0 auto 20px auto;
   }
   #btn{
     height: 50px;
@@ -59,21 +48,16 @@ background-size: contain;
 }
 
 @media (max-width:900px) {
-  body{
-    color: whitesmoke;
-    background-image: url(images/valentines-bouquet-with-a-card-animate.svg);
-  background-repeat: no-repeat;
-    margin: 0%;
- padding: 10px;
- padding-top: 50px;
- text-align: center;
+  .container{
+height: 100%;
   }
-  #container{
-    height: 150px;
-   width: 150px;
+  .contain{
+    height: 250px;
+   width: 250px;
     border-radius: 100%;
     background-color: whitesmoke;
-   margin: 0 auto 80px auto;
+   margin: 0 auto 20px auto;
   }
+
 }
 
