@@ -19,6 +19,13 @@ h2,h4{
   font-weight: bold;
   font-size: 2rem;
 }
+.container-fluid{
+  padding: 5px;
+}
+.con1{
+  border-radius: 100%;
+  background-color: white;
+}
 .con{
   padding-top: 100px;
 }
@@ -41,6 +48,6 @@ h2,h4{
   color: white;
 }
 .img1{
-  height: 400px;
+  border-radius: 100%;
   width: 100%;
 }
