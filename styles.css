@@ -36,11 +36,16 @@ h1{
 
 @media (min-width:900px) {
   .contain{
-    height: 250px;
-   width: 250px;
+    height: 300px;
+   width: 300px;
     border-radius: 100%;
     background-color: whitesmoke;
     margin: 0 auto 20px auto;
+  }
+  .img1{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
   }
   #btn{
     height: 50px;
@@ -62,6 +67,11 @@ height: 100%;
     border-radius: 100%;
     background-color: whitesmoke;
    margin: 0 auto 20px auto;
+  }
+  .img1{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
   }
 }
 
