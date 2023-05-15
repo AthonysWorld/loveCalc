@@ -4,7 +4,7 @@ body{
   background-image: url(images/valentines-bouquet-with-a-card-animate.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: red;
+  background-color: pink;
 }
 
 
@@ -16,8 +16,9 @@ h1{
 }
 
 #container{
-  height: 500px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
+  color: red;
 }
 #btn{
   margin: 30px;
@@ -68,15 +69,11 @@ background-size: contain;
  text-align: center;
   }
   #container{
-    border-radius: 15px;
-    height: 350px;
-    width: 95%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    background-color: pink;
-    color: red;
-position: absolute;
-top: 50%;
+    height: 150px;
+   width: 150px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+   margin: 0 auto 80px auto;
   }
 }
 
