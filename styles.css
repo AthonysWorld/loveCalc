@@ -2,7 +2,16 @@
 background-color: pink;
 color: red;
 text-align: center;
+padding: 10px;
 padding-top: 50px;
+font-family: 'Dancing Script', cursive;
+font-family: 'Mulish', sans-serif;
+font-family: 'Satisfy', cursive;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Satisfy', cursive;
 }
 .btn{
   margin: 30px;
@@ -20,6 +29,10 @@ padding-top: 50px;
 .btn:hover{
   background-color:red ;
   color: white;
+}
+.img1{
+  height: 100%;
+  width: 100%;
 }
 @media (min-width:900px) {
   .con{
