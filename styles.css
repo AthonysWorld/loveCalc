@@ -12,7 +12,13 @@ h1{
   font-family: 'Dancing Script', cursive;
   font-family: 'Mulish', sans-serif;
   font-family: 'Satisfy', cursive;
+  font-weight: bold;
+  font-size: 2em;
 }
+.con{
+  padding-top: 100px;
+}
+
 .btn{
   margin: 30px;
   height: 40px;
@@ -34,10 +40,3 @@ h1{
   height: 100%;
   width: 100%;
 }
-@media (min-width:900px) {
-  .con{
-    padding-top: 100px;
-  }
-}
-
-
