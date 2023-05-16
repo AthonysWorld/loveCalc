@@ -4,10 +4,18 @@ body{
     padding-top: 40px;
     text-align: center;
     background-image: linear-gradient(pink,white);
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mulish', sans-serif;
+        font-family: 'Satisfy';
 }
 .container-fluid{
     margin-bottom: 20px;
 }
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;}
 .two{
     padding-top: 80px;
 }
