@@ -4,15 +4,14 @@ body{
     padding-top: 40px;
     text-align: center;
     background-image: linear-gradient(pink,white);
-    font-family: 'Caveat', cursive;
+    font-family: 'Creepster';
 }
        
 .container-fluid{
     margin-bottom: 20px;
 }
 h1{
-    font-family: 'Caveat', cursive;
-    font-weight: bold;}
+    font-family: 'Creepster';}
 .two{
     padding-top: 80px;
 }
