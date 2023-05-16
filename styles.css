@@ -3,15 +3,32 @@ body{
     padding: 10px;
     padding-top: 40px;
     text-align: center;
-    background-image: linear-gradient(pink,white);
+    background-image: linear-gradient(pink,blue);
     font-family: 'Creepster';
+    color: white;
+}
+span{
+    color: rgba(0, 0, 255, 0.705);
+}
+.footest{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: rgba(0, 0, 255, 0.705);
+}
+.icons{
+    color: pink;
+    background-color: pink;
 }
        
 .container-fluid{
     margin-bottom: 20px;
 }
 h1{
-    font-family: 'Creepster';}
+    font-family: 'Creepster';
+color: white;
+}
 .two{
     padding-top: 80px;
 }
