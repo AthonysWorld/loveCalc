@@ -1,53 +1,26 @@
- body{
-background-color: pink;
-color: red;
-text-align: center;
-padding: 10px;
-padding-top: 50px;
-}
-h1{
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Satisfy', cursive;
-  font-weight: bold;
-  font-size: 5rem;
-}
-h2,h4{
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Satisfy', cursive;
-  font-weight: bold;
-  font-size: 3rem;
+body{
+    margin: 0%;
+    padding: 10px;
+    padding-top: 40px;
+    text-align: center;
+    background-image: linear-gradient(pink,white);
 }
 .container-fluid{
-  padding: 5px;
+    margin-bottom: 20px;
 }
-.con1{
-  border-radius: 100%;
-  background-color: pink;
+.two{
+    padding-top: 80px;
 }
-.con{
-  padding-top: 100px;
-}
-
 .btn{
-  margin: 30px;
-  height: 40px;
-  width: 300px;
-  padding: auto;
-  border-radius: 20px;
-  border: none;
-  color: red;
-  font-size: 20px;
-  font-weight: bold;
-  background-color:pink ;
-  box-shadow: 1px 1px 1px 1px;
+    color: red;
+    background-color: pink;
+    box-shadow: 2px 0.5px 1px 2px pink;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
-.btn:hover{
-  background-color:red ;
-  color: white;
-}
-.img1{
-  border-radius: 100%;
-  width: 100%;
+@media (max-width:900px) {
+   .two{
+    padding-top: 30px;
+   }
+   
 }

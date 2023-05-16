@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Website</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony's love calculator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mulish:wght@1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <div class="container">
-    <h1>Hello, welcome to Anthony's love calculator</h1>
-    <h2>where Coffee meets bagel </h2>
-  </div>
-  <div class="container-fuid row">
-    <div class="container col-lg-5 con1">
-<img class="img1" src="images/valentines-bouquet-with-a-card-animate.svg">
-    </div><!-- cont1 ends -->
-    <div class="container col col-lg-7 con">
-      <h4><label for="partners-name">Your name </label> <input type="text"></h4><br> <br>
-      <h4><label for="partners-name">Partner's name </label> <input type="text"></h4><br>
-      <button class="btn" onclick="button()">view love score</button>
-    </div><!-- cont2 ends -->
-  </div>
-  </body>
-  <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>love is a beautiful thing and that's why we want to help you know if you and your partner match</h1>
+    </div>
+    <div class="row">
+<div class="container col-lg-6 one">
+<img src="images/valentines-bouquet-with-a-card-animate.svg">
+</div><!-- cont end -->
+<div class="container col-lg-6 two">
+    <h2>love is a beautiful thing and that's why we want to help you know if you and your partner match</h2>
+    <p><label for="your-name">Your name</label> <input class="input1" placeholder=" your name" type="text"></p>
+    <p><label for="partner's-name">partner's name</label> <input class="input2" placeholder=" partner's name" type="text"></p>
+    <div class="footer">
+        <button onclick="love()" class="btn btn-large" >Check love score</button>
+    </div>
+</div>
+    </div>
+</body>
+<script src="./index.js"></script>
 </html>
-
