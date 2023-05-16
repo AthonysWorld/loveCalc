@@ -4,17 +4,14 @@ body{
     padding-top: 40px;
     text-align: center;
     background-image: linear-gradient(pink,white);
-        font-family: 'Script';
-        font-family: 'Mulish', sans-serif;
-        font-family: 'Satisfy';
+    font-family: 'Caveat', cursive;
 }
+       
 .container-fluid{
     margin-bottom: 20px;
 }
 h1{
-    font-family: 'Script', cursive;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: bold;}
 .two{
     padding-top: 80px;
