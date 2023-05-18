@@ -39,6 +39,9 @@ color: white;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+h2{
+    color: pink;
+}
 @media (max-width:900px) {
    .two{
     padding-top: 30px;
