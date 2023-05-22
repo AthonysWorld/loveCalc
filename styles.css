@@ -13,6 +13,9 @@ html{
 span{
     color: rgba(0, 0, 255, 0.705);
 }
+a{
+    text-decoration: none;
+}
 .footest{
     margin-top: 10px;
     margin-bottom: 10px;
