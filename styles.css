@@ -18,6 +18,9 @@ span{
     min-height: 100vh;
     padding: 10px;
 }
+::placeholder{
+    color: red;
+}
 .image{
     height: 150px;
     width: 150px;
