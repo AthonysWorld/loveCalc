@@ -8,12 +8,6 @@
     justify-content: center;
     text-align: center;
 }
-body{
-    background-image: url(images/photo_2023-05-14_17-47-53.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-}
 span{
     color: red;
     background: pink;
