@@ -1,59 +1,91 @@
-body{
-    margin: 0%;
-    padding: 10px;
-    padding-top: 40px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    background-color: PINK;
-    font-family: 'Creepster';
-    color: rgba(0, 0, 255, 0.705);
 }
-html{
-    scroll-behavior: smooth;
+body{
+    background-image: url(images/photo_2023-05-14_17-47-53.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 span{
-    color: rgba(0, 0, 255, 0.705);
-}
-a{
-    text-decoration: none;
-}
-.footest{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.img1{
-    border-radius: 100%;
-}
-::placeholder{
     color: red;
+    background: pink;
 }
-.icon{
-  margin-right: 15px;
-  color: rgba(0, 0, 255, 0.705);
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
 }
-       
-.container-fluid{
-    margin-bottom: 20px;
-}
-h1{
-    font-family: 'Creepster';
-color: RED;
-}
-.two{
-    padding-top: 80px;
-}
-.btn{
-    color: red;
+.image{
+    height: 150px;
+    width: 150px;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
-    box-shadow: 2px 0.5px 1px 2px pink;
-    margin-top: 10px;
+}
+img{
+    border-radius: 50%;
+}
+.love-app{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 15px;
+    border: solid #1260cc;
+    color: #1260cc;
+    background: pink;
+}
+.love-app h2,h1{
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: pink;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    /* padding-left: 20px; */
+    margin-bottom: 25px;
+    background: pink;
+}
+#input-one{
+    margin-top: 30px;
+}
+input{
+    flex: 1;
+    border: solid #1260cc;
+    color: #1260cc;
+    padding: 10px;
+    cursor:text;
+    border-radius: 15px;
+    height: 50px;
+}
+button{
+    padding: 16px 50px;
+    background: red;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px; 
+    box-shadow: 1px 1px 1px 1px pink;
     margin-bottom: 20px;
 }
-h2{
-    color: RED;
-}
-@media (max-width:900px) {
-   .two{
-    padding-top: 30px;
-   }
-   
+button:hover{
+    color: #fff;
+    background: #3a9bdc;
 }
