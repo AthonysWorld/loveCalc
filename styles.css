@@ -4,7 +4,6 @@
     font-family:sans-serif;
     box-sizing: border-box;
     color: #fff;
-    background-color: pink;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -17,6 +16,7 @@ span{
     width: 100%;
     min-height: 100vh;
     padding: 10px;
+    background-color: pink;
 }
 ::placeholder{
     color: red;
